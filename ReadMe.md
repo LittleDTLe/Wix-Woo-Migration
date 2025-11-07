@@ -32,11 +32,11 @@ Migrate your products from a **Wix product export CSV** file directly into **Woo
 ### 2. File Structure
 
 Ensure your plugin directory contains the following files:
-wix-woo-migrate/
-├── assets/
-│ ├── style.css # Styles for the admin page
-│ └── script.js # JavaScript for AJAX and UI interaction
-└── wix-woo-migrate.php # The main plugin file
+<Root wix-woo-migrate>/
+├── <Subfolder assets>/
+│ ├── <File style.css># Styles for the admin page
+│ └── <File script.js># JavaScript for AJAX and UI interaction
+└── <File wix-woo-migrate># The main plugin file
 
 The `style.css` and `script.js` files are automatically generated and placed in the `assets` folder upon plugin activation by the `wix_woo_migration_create_assets` function.
 
