@@ -111,6 +111,7 @@ class Wix_WooCommerce_Migration
 The plugin uses standard WordPress AJAX actions for all backend tasks:
 
 | Action Hook | PHP Method | Description |
+
 | :--- | :--- | :--- |
 | `wp_ajax_wix_woo_upload_csv` | `handle_csv_upload()` | Handles file upload, parses the CSV into product groups, and saves the initial state. |
 | `wp_ajax_wix_woo_start_migration` | `start_migration()` | Changes the migration status to 'active' to begin batch processing. |
