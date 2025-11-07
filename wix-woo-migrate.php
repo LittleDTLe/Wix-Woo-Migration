@@ -1,11 +1,10 @@
 <?php
 /**
  * Plugin Name: Wix to WooCommerce Product Migration
- * Plugin URI: https://example.com
  * Description: Migrate products from Wix CSV to WooCommerce with batch processing and pause/resume functionality
  * Version: 1.0.0
- * Author: Your Name
- * Author URI: https://example.com
+ * Author: Panagiotis Drougas
+ * Author URI: https://github.com/LittleDTLe
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: wix-woo-migration
