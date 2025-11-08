@@ -1,123 +1,139 @@
 .wix-woo-migration-wrap {
-        max-width: 1200px;
-    }
+    max-width: 1200px;
+}
 
-    .wix-woo-migration-container {
-        background: #fff;
-        border: 1px solid #ccd0d4;
-        box-shadow: 0 1px 1px rgba(0,0,0,.04);
-        margin-top: 20px;
-    }
+.wix-woo-migration-container {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 20px;
+}
 
-    .wix-woo-section {
-        padding: 20px;
-        border-bottom: 1px solid #f0f0f1;
-    }
+.wix-woo-section {
+    padding: 20px;
+    border-bottom: 1px solid #f0f0f1;
+}
 
-    .wix-woo-section:last-child {
-        border-bottom: none;
-    }
+.wix-woo-section:last-child {
+    border-bottom: none;
+}
 
-    .wix-woo-section h2 {
-        margin-top: 0;
-    }
+.wix-woo-section h2 {
+    margin-top: 0;
+}
 
-    .csv-format-info {
-        background: #f0f6fc;
-        border-left: 4px solid #2271b1;
-        padding: 15px;
-        margin: 15px 0;
-    }
+.csv-format-info {
+    background: #f0f6fc;
+    border-left: 4px solid #2271b1;
+    padding: 15px;
+    margin: 15px 0;
+}
 
-    .csv-format-info h3 {
-        margin-top: 0;
-    }
+.csv-format-info h3 {
+    margin-top: 0;
+}
 
-    .csv-format-info ul {
-        margin: 10px 0;
-    }
+.csv-format-info ul {
+    margin: 10px 0;
+}
 
-    .csv-format-info li {
-        margin: 8px 0;
-    }
+.csv-format-info li {
+    margin: 8px 0;
+}
 
-    #wix-csv-upload-form {
-        margin: 20px 0;
-    }
+.form-table th {
+    padding: 20px 10px 20px 0;
+}
 
-    #wix-csv-file {
-        margin-right: 10px;
-    }
+.form-table td {
+    padding: 15px 10px;
+}
 
-    .progress-bar-container {
-        margin: 20px 0;
-    }
+#wix-csv-upload-form,
+#wix-migration-settings-form {
+    margin: 20px 0;
+}
 
-    .progress-bar {
-        width: 100%;
-        height: 30px;
-        background: #f0f0f1;
-        border-radius: 4px;
-        overflow: hidden;
-        position: relative;
-    }
+#wix-csv-file {
+    margin-right: 10px;
+}
 
-    .progress-fill {
-        height: 100%;
-        background: linear-gradient(90deg, #2271b1, #135e96);
-        transition: width 0.3s ease;
-    }
+.progress-bar-container {
+    margin: 20px 0;
+}
 
-    .progress-text {
-        text-align: center;
-        margin-top: 10px;
-        font-weight: 600;
-        font-size: 16px;
-    }
+.progress-bar {
+    width: 100%;
+    height: 30px;
+    background: #f0f0f1;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
 
-    .migration-controls {
-        margin: 20px 0;
-    }
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #2271b1, #135e96);
+    transition: width 0.3s ease;
+}
 
-    .migration-controls button {
-        margin-right: 10px;
-    }
+.progress-text {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
 
-    #migration-info p {
-        margin: 10px 0;
-    }
+.migration-controls {
+    margin: 20px 0;
+}
 
-    .error-log {
-        background: #f0f0f1;
-        padding: 15px;
-        border-radius: 4px;
-        max-height: 300px;
-        overflow-y: auto;
-    }
+.migration-controls button,
+.migration-controls a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 
-    .error-log p {
-        margin: 5px 0;
-        font-size: 13px;
-        color: #d63638;
-    }
+#migration-info p {
+    margin: 10px 0;
+}
 
-    .notice {
-        padding: 12px;
-        margin: 15px 0;
-        border-left: 4px solid;
-    }
+.error-log {
+    background: #f0f0f1;
+    padding: 15px;
+    border-radius: 4px;
+    max-height: 400px;
+    overflow-y: auto;
+}
 
-    .notice-success {
-        background: #edfaef;
-        border-color: #00a32a;
-    }
+.error-log p {
+    margin: 5px 0;
+    font-size: 13px;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
 
-    .notice-error {
-        background: #fcf0f1;
-        border-color: #d63638;
-    }
+.error-log p:last-child {
+    border-bottom: none;
+}
 
-    .notice-info {
-        background: #f0f6fc;
-        border-color: #2271b1;
-    }
+.notice {
+    padding: 12px;
+    margin: 15px 0;
+    border-left: 4px solid;
+}
+
+.notice-success {
+    background: #edfaef;
+    border-color: #00a32a;
+}
+
+.notice-error {
+    background: #fcf0f1;
+    border-color: #d63638;
+}
+
+.notice-info {
+    background: #f0f6fc;
+    border-color: #2271b1;
+}
